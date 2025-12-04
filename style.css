@@ -1,0 +1,42 @@
+body {
+    background-color: #f384f9;
+    text-align: center;
+}
+
+h1 {
+    color: #530662;
+}
+
+button {
+    background-color: #530662;
+    color: white;
+}
+
+.mensagem {
+    text-align: center;
+    border: 5px solid #530662;
+    background-color: #530662;
+}
+
+div label {
+    color: white;
+}
+
+#email, #senha {
+    background-color: #efa0fd;
+    border-radius: 5px;
+    border: 5px solid  #740d94;
+}
+
+body p {
+    color: white;
+}
+
+body p a {
+    color: #530662;
+}
+
+body h1 {
+    text-align: center;
+    color: #d63f88;
+}
