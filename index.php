@@ -22,7 +22,8 @@ $usuario_nome = $_SESSION['usuario_nome'];
 <body>
     <h1>Sistema Financeiro</h1>
     <div>
-        <p>Bem-vindo. <strong> <?php echo $usuario_nome ?> </strong></p>
+        <p>Bem-vindo, <strong> <?php echo $usuario_nome ?> </strong></p>
+        <a href="logout.php">Sair</a>
     </div>
 </body>
 
