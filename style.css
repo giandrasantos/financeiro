@@ -1,6 +1,11 @@
 body {
-    background-color: #f384f9;
-    text-align: center;
+    background-image: url(imagens/de292a259ad2be2bd3af6ea7dd6d262f17e824e4a8703ef059723fa9eb965b7b.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 155px 155px 155px 155px;
 }
 
 h1 {
@@ -23,9 +28,18 @@ div label {
 }
 
 #email, #senha {
-    background-color: #efa0fd;
+    background-color: rgba(255, 148, 230, 0.7);
     border-radius: 5px;
-    border: 5px solid  #740d94;
+    border: 5px solid  #530662;
+}
+
+.fundo_login {
+    width: 420px;
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    background: rgba(255, 148, 230, 0.7);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 body p {
@@ -34,9 +48,4 @@ body p {
 
 body p a {
     color: #530662;
-}
-
-body h1 {
-    text-align: center;
-    color: #d63f88;
 }

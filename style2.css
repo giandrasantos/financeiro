@@ -1,0 +1,31 @@
+body {
+    background-image: url(imagens/barbie-a-princesa-e-a-popstar.avif);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 155px 155px 155px 155px;
+}
+
+h1, h2 {
+ color: #aa00d4;
+}
+
+.fundo_resumo {
+    width: 200px;
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    background: rgba(255, 148, 230, 0.306);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.fundo_transacoes {
+    width: 200px;
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    background: rgba(255, 148, 230, 0.306);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
